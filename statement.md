@@ -87,8 +87,7 @@ class Stack {
 public class Main {
   public static void main(String[] args) {
       String str = "MYDEVGEEK";
-      Stack stack = new Stack();
-      System.out.println(stack.reverse(str));
+      System.out.println(Stack.reverse(str));
   }
 }
 ```
